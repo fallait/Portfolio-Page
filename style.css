@@ -97,6 +97,11 @@ video{
     padding: 10px;
 }
 
+iframe{
+    background-color:#c5c6c7;
+    padding: 10px;
+}
+
 #project{
     background-color:#1F2833;
 }
