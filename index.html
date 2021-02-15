@@ -1,67 +1,98 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <meta property="og:title" content="Joseph Fallait's Portfolio">
+        <meta property="og:description" content="Graduating Senior at Boston College">
+        <meta property="og:image" content="FALLAIT_JOSEPH_2019.jpeg">
+        <meta property="og:url" content="https://fallait.github.io/Portfolio-Page/">
+    
     </head>
     <body>
         <nav>
-            <ul>
+            <li>
                 <a href="#About" id = "navbar">About</a>
-            </ul>
-            <ul>
-                <a href="#News" id = "navbar">News</a>
-            </ul>
-            <ul>
+            </li>
+            <li>
                 <a href="#Projects" id = "navbar">Projects</a>
-            </ul>
+            </li>
+            <li>
+                <a href="#News" id = "navbar">News</a>
+            </li>
         </nav>
-        <section id="About">
-            <h2>
-                Joseph Fallait
-            </h1>
-            <img src="FALLAIT_JOSEPH_2019.jpeg" width = 350px height = 350px></img>
-            <p>
-                <b>Senior at Boston College</b>
-            </p>
-            <p>fallait@bc.edu</p>
-            <p>140 Commonwealth Ave Chestnut Hill, MA 02467</p>
-            <p id = "socials"><a href="Joseph_Fallait_Resume.pdf" id = "socials">Resume</a> | 
-                <a href="https://www.linkedin.com/in/joseph-fallait-111aa5143/" id = "socials">LinkedIn</a> | 
-                <a href = "https://github.com/fallait" id = "socials">Github</a>
-            </p>
-            <p>Joseph Fallait is a senior pursuing a double major in Computer Science and Economics at Boston College.
-                He works on-campus as a resident assistant, and is particularly interested in the field of Data Science.
-                Having previously worked at social media and biotech startups, his passion is incorporating data analysis into
-                a variety of disciplines. In his free time, he has been learning guitar and piano and is currently pursuing employment
-                for Summer 2021.
-            </p>
-        </section>
+        <div class="row" id="top">
+            <div class = "col-6">
+                <img src="FALLAIT_JOSEPH_2019.jpeg" class = "propic"></img>
+            </div>
+            <div class = "col-6">
+                <h2>Joseph Fallait</h2>
+                <p>
+                    <b>Senior at Boston College</b>
+                </p>
+                <p>fallait@bc.edu</p>
+                <p>140 Commonwealth Ave Chestnut Hill, MA 02467</p>
+                <p id = "socials">
+                    <a href="Joseph_Fallait_Resume.pdf" id = "socials"><i class="far fa-file"></i> Resume</a> | 
+                    <a href="https://www.linkedin.com/in/joseph-fallait-111aa5143/" id = "socials"><i class="fab fa-linkedin-in"></i></a> | 
+                    <a href = "https://github.com/fallait" id = "socials"><i class="fab fa-github"></i></a>
+                </p>
+                <p>Joseph Fallait is a senior pursuing a double major in Computer Science and Economics at Boston College.
+                        He works on-campus as a resident assistant, and is particularly interested in the field of Data Science.
+                        Having previously worked at social media and biotech startups, his passion is incorporating data analysis into
+                        a variety of disciplines. In his free time, he has been learning guitar and piano and is currently pursuing employment
+                        for Summer 2021.
+                </p>
+            </div>
+        </div>
         <span>
-            <section id = "Projects">
-                <h2>Projects</h2>
-                <a href="ASL.html"><h3>Neural Network Classification of ASL Fingerspelling</h3></a>
-                <p>Jack Miller, Jerry Yang, Aidan Shea, 
-                    Shane Fitzpatrick, Joseph Fallait, and Sean Curley 
-                    </p>
-                <img src="ASLPic.png" width=500px; height = 300px;>
-                <a href="Vis.html"><h3>Visualization of Christmas Music</h3></a>
-                <p>Joseph Fallait, Andres Fernandez, Yun Tong</p>
-                <img src= "VisPic.png" width=500px; height = 300px;>
-                <a href="Classification.html"><h3>Naive Bayes and SVM Spam Classification</h3></a>
-                <p>Joseph Fallait</p>
-                <img src="ClassPic.png" width=500px; height = 300px;>   
-            </section>
-        <section id = "News">
-            <h2>News</h2>
-            <ul>
-                <p><b>January 28th, 2021: </b>Began final semester at Boston College.</p>
-            </ul>
-            <ul>
-                <p><b>January 22nd, 2021: </b>Arrived on campus for Winter Training.</p>
-            </ul>
-            <ul>
-                <p><b>March 15th, 2020: </b>Boston College campus closed early due to COVID.</p>
-            </ul>
-        </section>
-        </span>
+            <div class = "row">
+                    <div class = "col-4">
+                        <a href="ASL.html" class = "plink"><h3>Neural Network Classification of ASL Fingerspelling</h3></a>
+                        <ul class = "tags">
+                            <li id = "ML">Machine Learning</li>
+                            <li id = "Write-up">Write-up</li>
+                            <li id = "Presentation">Presentation</li>
+                        </section>
+                        <p>Jack Miller, Jerry Yang, Aidan Shea, 
+                            Shane Fitzpatrick, Joseph Fallait, and Sean Curley 
+                            </p>
+                        <img src="ASLPic.png" width=500px; height = 300px;>
+                    </div>
+                    <div class = "col-4">
+                        <a href="Vis.html" class = "plink"><h3>Visualization of Christmas Music</h3></a>
+                        <ul class = "tags">
+                            <li id = "Visualization">Visualization</li>
+                            <li id = "Write-up">Write-up</li>
+                            <li id = "Presentation">Presentation</li>
+                        </section>
+                        <p>Joseph Fallait, Andres Fernandez, Yun Tong</p>
+                        <img src= "VisPic.png" width=500px; height = 300px;>
+                    </div>
+                    <div class = "col-4">
+                        <a href="Classification.html" class = "plink"><h3>Naive Bayes and SVM Spam Classification</h3></a>
+                        <ul class = "tags">
+                            <li id = "ML">Machine Learning</li>
+                            <li id= "Presentation">Presentation</li>
+                        </section>
+                        <p>Joseph Fallait</p>
+                        <img src="ClassPic.png" width=500px; height = 300px;>
+                    </div>
+            </div>
+            <div class = "row">
+                <div class = "col-12">
+                    <h2 class="animate__animated animate__infinite animate__bounce animate__delay-2s">News</h2>
+                    <ul>
+                        <p><b>January 28th, 2021: </b>Began final semester at Boston College.</p>
+                    </ul>
+                    <ul>
+                        <p><b>January 22nd, 2021: </b>Arrived on campus for Winter Training.</p>
+                    </ul>
+                    <ul>
+                        <p><b>March 15th, 2020: </b>Boston College campus closed early due to COVID.</p>
+                    </ul>
+                </div>
+        </div>
     </body>
 </html>

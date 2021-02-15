@@ -1,26 +1,54 @@
 <html>
-    <head>
-        <link rel="stylesheet" href = "style.css">
-    </head>
-    <body id="project">
-        <a href="index.html" id= "navbar">Back</a>
-        <h1>
-            Visualization of Christmas Lyrics
-        </h1>
-        <span id ="center">
-        <img src="VisPic.png" width = 50%; height = 420px;>
-        <video width="50%" height="400" controls>
-            <source src="https://cdn.glitch.com/4c909740-f901-4301-b90e-d2fae49fd29f%2Fdemo2.mp4?v=1607403527220" type="video/mp4">
-        </video>
-        </span>
-        <section id="desc">
-        <p><b>Joseph Fallait, Andres Fernandez, and Yun Tong</b>
-        </p>
-        <p>Christmas Music has remained a hallmark of the holiday season, with the songs each year often having similar features and lyrics.
-            Done as a part of the Visualization course at Boston College, this webpage used D3 to create some novel visualizations of the Billboard
-            Holiday Charts and of the lyrical makeup of many of these popular classics.
-        </p>
-        </section>
-        <a href = "https://final-xmas-music.glitch.me/" id = "navbar">Webpage Link</a>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:title" content="Visualization of Christmas Music">
+    <meta property="og:description" content="Visualization Project using D3.js">
+    <meta property="og:image" content="VisPic.png">
+    <meta property="og:url" content="https://fallait.github.io/Portfolio-Page/Vis.html">
+</head>
+
+<body id="project">
+    <a href="index.html" id="back">Back</a>
+    <div class="row" id="top">
+        <div class="col-12">
+            <h1>
+                Visualization of Christmas Music
+            </h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <img src="VisPic.png" width=100%; height=400px%;>
+        </div>
+        <div class="col-6">
+            <video width="100%" height="400px%" controls>
+                <source src="https://cdn.glitch.com/4c909740-f901-4301-b90e-d2fae49fd29f%2Fdemo2.mp4?v=1607403527220"
+                    type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <section id="desc">
+        <div class="row">
+            <div class="col-12">
+                <h2><b>Joseph Fallait, Andres Fernandez, and Yun Tong</b>
+                </h2>
+            </div>
+            <div class="col-12">
+                <p>Christmas Music has remained a hallmark of the holiday season, with the songs each year often
+                    having
+                    similar features and lyrics.
+                    Done as a part of the Visualization course at Boston College, this webpage used D3 to create
+                    some novel
+                    visualizations of the Billboard
+                    Holiday Charts and of the lyrical makeup of many of these popular classics.
+                </p>
+                <a href="https://final-xmas-music.glitch.me/" id="links">Webpage Link</a>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>

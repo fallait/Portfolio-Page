@@ -3,7 +3,16 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    max-width: 1920px;
+    min-width: fit-content;
+    margin: 0 auto;
+    background-color: #1A1A1D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1{
+    text-align: center;
     font-size: 36px;
     color: #66fcf1;
 }
@@ -23,24 +32,28 @@ h3:hover{
 
 p{
     font-size: 20px;
+    color: #c5c6c7;
 }
-body{
-    background-color: #1A1A1D;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 nav{
-    text-align: center;
     font-size: 20px;
-    background-color: #1f2833;
-    border-style:groove;
+    background-color: #c5c6c7;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 10px;
 }
 
 #navbar{
-    border-style: groove;
-    background: #c5c6c7;
     color:#1F2833;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #navbar:hover{
@@ -55,19 +68,10 @@ a:visited{
     color: #66fc80;
 }
 
-#About{
-    display: inline-block;
-    background-color: #1F2833;
-    color:#c5c6c7;
-    text-align: center;
-    width: auto;
-    margin: auto;
-    font-size: 20px;
-    border-style: groove;
+a{
+    text-decoration: none;
 }
-span{
-    display: flex;
-}
+
 #News{
     float: left;
     background-color: #1f2833;
@@ -78,6 +82,16 @@ span{
     border-style: groove;
     padding-left: 10px;
 }
+
+.propic{
+    border-radius: 5%;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    height: auto;
+    vertical-align: middle;
+}
+
 #Projects{
     vertical-align: top;
     background-color: #1f2833;
@@ -88,13 +102,10 @@ span{
     border-style: groove;
 }
 
-#desc{
-    background-color:#c5c6c7;
-}
 
 video{
     background-color:#c5c6c7;
-    padding: 10px;
+    padding: auto;
 }
 
 iframe{
@@ -102,6 +113,92 @@ iframe{
     padding: 10px;
 }
 
-#project{
-    background-color:#1F2833;
+
+.row{
+    display:flex;
+    box-sizing:border-box;
+    flex-wrap:wrap;
+    width: 100%;
 }
+
+[class*=col-]{
+    background-color:#1F2833;
+    box-sizing:border-box;
+    border:1px solid #c5c6c7;
+    padding:10px;
+    text-align:center;
+    flex-basis: 100%;
+  }
+
+#top{
+    padding-top: 30px;
+}
+
+.tags{
+    font-size: 20px;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+    margin: 5px;
+}
+
+#Visualization{
+    color: red;
+}
+
+#ML{
+    color: green;
+}
+
+#Write-up{
+    color:tan;
+}
+
+#Presentation{
+    color: skyblue;
+}
+
+#back{
+    border-style: groove;
+    font-size: 30px;
+    background-color: #c5c6c7;
+    color:#1f2833;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#back:hover{
+    background-color:aliceblue;
+}
+
+#links{
+    border-style: groove;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-color:#45a29e;
+    background-color:#c5c6c7;
+    color:#1F2833;
+}
+
+#links:hover{
+    background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .col-1 {flex-basis: 8.33%;} /* width works too */
+    .col-2 {flex-basis: 16.66%;}
+    .col-3 {flex-basis: 25%;}
+    .col-4 {flex-basis: 33.33%;}
+    .col-5 {flex-basis: 41.66%;}
+    .col-6 {flex-basis: 50%;}
+    .col-7 {flex-basis: 58.33%;}
+    .col-8 {flex-basis: 66.66%;}
+    .col-9 {flex-basis: 75%;}
+    .col-10 {flex-basis: 83.33%;}
+    .col-11 {flex-basis: 91.66%;}
+    .col-12 {flex-basis: 100%;}
+  }
