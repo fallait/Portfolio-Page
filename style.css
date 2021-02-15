@@ -65,11 +65,12 @@ nav{
 }
 
 a:visited{
-    color: #66fc80;
+    color: #c5c6c7;
 }
 
 a{
     text-decoration: none;
+    color: #66fc80;
 }
 
 
