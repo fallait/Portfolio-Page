@@ -1,0 +1,97 @@
+{
+    "About": {
+        "name": "Joseph Fallait",
+        "title": "Senior at Boston College",
+        "photo": "FALLAIT_JOSEPH_2019.jpeg",
+        "email": "fallait@bc.edu",
+        "socials": [{
+            "id": "Resume",
+            "source": "Joseph_Fallait_Resume.pdf",
+            "icon": "far fa-file"
+        },
+        {
+            "id" : "LinkedIn",
+            "source": "https://www.linkedin.com/in/joseph-fallait-111aa5143/",
+            "icon": "fab fa-linkedin-in"
+        },
+        {
+            "id" : "Github",
+            "source": "https://github.com/fallait",
+            "icon": "fab fa-github"
+        }
+        ],
+        "description": "Joseph Fallait is a senior pursuing a double major in Computer Science and Economics at Boston College. He works on-campus as a resident assistant, and is particularly interested in the field of Data Science. Having previously worked at social media and biotech startups, his passion is incorporating data analysis into a variety of disciplines. In his free time, he has been learning guitar and piano and is currently pursuing employment for Summer 2021."
+    },
+    "Projects": [
+        {
+            "id": "asl",
+            "title": "Neural Network Classification of ASL Fingerspelling",
+            "authors": "Jack Miller, Jerry Yang, Aidan Shea, Shane Fitzpatrick, Joseph Fallait, and Sean Curley",
+            "photo": "ASLPic.png",
+            "tags": [
+                "ML",
+                "Write-Up",
+                "Presentation"
+            ],
+            "materials": [
+                {
+                    "label": "photo",
+                    "path": "ASLPic.png"
+                },
+                {
+                    "label": "video",
+                    "path": "https://www.youtube.com/embed/P51Gj5x8DQI"
+                }
+            ],
+            "description": "In this project, we used a Neural Network and principles of computer vision to identify fingerspelled ASL letters."
+        },
+        {
+            "id": "vis",
+            "title": "Visualization of Christmas Music",
+            "authors": "Joseph Fallait, Andres Fernandez, Yun Tong",
+            "photo": "VisPic.png",
+            "tags": [
+                "Visualization",
+                "Write-Up",
+                "Presentation"
+            ],
+            "materials": [
+                {
+                    "label": "photo",
+                    "path": "VisPic.png"
+                },
+                {
+                    "label": "video",
+                    "path": "https://cdn.glitch.com/4c909740-f901-4301-b90e-d2fae49fd29f%2Fdemo2.mp4?v=1607403527220"
+                }
+            ],
+            "description": "In this project, we used D3.js to visualize Christmas music and its lyrics throughout the years."
+        },
+        {
+            "id": "classif",
+            "title": "Naive Bayes and SVM Spam Classification",
+            "authors": "Joseph Fallait",
+            "photo": "ClassPic.png",
+            "tags": [
+                "ML",
+                "Presentation",
+                "Write-Up"
+            ],
+            "materials": [
+                {
+                    "label": "photo",
+                    "path": "ClassPic.png"
+                },
+                {
+                    "label": "slides",
+                    "path": "https://github.com/fallait/Spam-Classification/blob/master/Text%20Classification.pdf"
+                }
+            ],
+            "description": "In this project, I classified spam messages while comparing Naive Bayes and Support Vector Machine models."
+        }
+    ],
+    "News": {
+        "title": "Began final semester at Boston College.",
+        "date": "January 28th, 2021"
+    }
+}

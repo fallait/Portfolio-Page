@@ -60,6 +60,10 @@ nav{
     color: #45a29e;
 }
 
+#socials{
+    color:#66fc80;
+}
+
 #socials:hover{
     color:#c5c6c7;
 }
@@ -168,7 +172,7 @@ iframe{
 }
 
 #links:hover{
-    background-color: white;
+    color: white;
 }
 
 @media screen and (min-width: 768px) {
